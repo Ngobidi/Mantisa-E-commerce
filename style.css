@@ -1,0 +1,43 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "mantisa", e-comm;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: #222;
+  color: green;
+  padding: 50px 50px;
+}
+.limitedOffer {
+  font-size: 50px;
+  border-bottom: 2px solid blue;
+  cursor: pointer;
+}
+
+.navBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buyButton {
+  position: absolute;
+  top: 40%;
+  right: 20%;
+  font-size: 40px;
+  font-weight: 900;
+  color: green;
+  border: 1px solid yellow;
+  background-color: red;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.buyButton:hover {
+  background-color: grey;
+  color: black;
+}
